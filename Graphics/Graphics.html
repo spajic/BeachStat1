@@ -1,0 +1,107 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+    var chart;
+    $(document).ready(function() {
+        chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                type: 'line',
+                marginRight: 130,
+                marginBottom: 25
+            },
+            title: {
+                text: 'Рейтинг',
+                x: -20 //center
+            },
+            subtitle: {
+                text: 'SpajicBeach',
+                x: -20
+            },
+            xAxis: {
+                categories: ['6', '7', '8', '9', '10', '11', '12', '13']
+            },
+            yAxis: {
+                title: {
+                    text: 'Рейтинг'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                formatter: function() {
+                        return '<b>'+ this.series.name +'</b><br/>'+ 'день ' +
+                        this.x +': '+ this.y;
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: 0,
+                y: 100,
+                borderWidth: 0
+            },
+            series: [{
+                name: 'Амбал',
+                data: [95, 94, 93, 89, 86, 90, 89, 88]
+            }, {
+                name: 'Гоша',
+                data: [78, 78, 81, 79, 78, 78, 70, 70]
+            }, {
+                name: 'Прас',
+                data: [68, 70, 70, 71, 71, 72, 74, 75]
+            }, {
+                name: 'Битёк',
+                data: [64, 63, 64, 72, 67, 69, 70, 69]
+            }, {
+                name: 'Спаич',
+                data: [55, 55, 54, 51, 56, 57, 57, 58]
+            }, {
+                name: 'Стёпа',
+                data: [54, 59, 58, 60, 60, 63, 57, 63]
+            }, {
+                name: 'Казаков',
+                data: [45, 38, 33, 32, 54, 45, 44, 44]
+            }, {
+                name: 'Тёма',
+                data: [35, 39, 40, 43, 39, 45, 52, 48]
+            }, {
+                name: 'Браток',
+                data: [29, 30, 41, 46, 39, 39, 38, 38]
+            }, {
+                name: 'Алёхин',
+                data: [12, 12, 12, 12, 19, 14, 16, 16]
+            }, {
+                name: 'Баранов',
+                data: [12, 12, 12, 12, 20, 29, 29, 29]
+            }, {
+                name: 'Королёв',
+                data: [12, 12, 12, 12, 4, 4, 4, 4]
+            }, {
+                name: 'Нечипур',
+                data: [0, 0, 0, 59, 57, 57, 57, 57]
+            }]
+        });
+    });
+    
+});
+		</script>
+	</head>
+	<body>
+<script src="js/highcharts.js"></script>
+<script src="js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 400px; height: 600px; margin: 0 auto"></div>
+
+	</body>
+</html>

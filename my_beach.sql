@@ -1,0 +1,10 @@
+drop table PlayersMat;
+create table PlayersMat as select * from Players;
+drop table CountOfPlayersToGameMat;
+create table CountOfPlayersToGameMat as select * from CountOfPlayersToGame;
+drop table WinsAndLosesToGameMat;
+create table WinsAndLosesToGameMat as select * from WinsAndLosesToGame;
+drop table StatsMat;
+create table StatsMat as select * from StatsView;
+drop table RatingMat;
+create table RatingMat as select * from Rating;

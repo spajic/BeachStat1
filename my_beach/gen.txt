@@ -1,0 +1,120 @@
+<table class='sortable'>
+    <thead>
+	  <tr>
+	    <th>Ф.И.О</th>
+		<th>Рейтинг</th>
+		<th>% побед</th>
+		<th>Побед</th>
+		<th>Поражений</th>
+		<th>Игр</th>
+	  </tr>
+	</thead>
+	<tfoot>
+	  <tr>
+	    <td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	  </tr>
+	</tfoot>
+	<tbody>
+      <tr>
+        <td>Амбал</td>
+        <td class='numeric'>0.930555555555556</td>
+        <td class='numeric'>0.861111111111111</td>
+        <td class='numeric'>31</td>
+        <td class='numeric'>5</td>
+        <td class='numeric'>36</td>
+      </tr>
+      <tr class='odd'>
+        <td>Гоша</td>
+        <td class='numeric'>0.81</td>
+        <td class='numeric'>0.62</td>
+        <td class='numeric'>31</td>
+        <td class='numeric'>19</td>
+        <td class='numeric'>50</td>
+      </tr>
+      <tr>
+        <td>Прас</td>
+        <td class='numeric'>0.702380952380952</td>
+        <td class='numeric'>0.571428571428571</td>
+        <td class='numeric'>24</td>
+        <td class='numeric'>18</td>
+        <td class='numeric'>42</td>
+      </tr>
+      <tr class='odd'>
+        <td>Битёк</td>
+        <td class='numeric'>0.645833333333333</td>
+        <td class='numeric'>0.625</td>
+        <td class='numeric'>15</td>
+        <td class='numeric'>9</td>
+        <td class='numeric'>24</td>
+      </tr>
+      <tr>
+        <td>Стёпа</td>
+        <td class='numeric'>0.58578431372549</td>
+        <td class='numeric'>0.588235294117647</td>
+        <td class='numeric'>10</td>
+        <td class='numeric'>7</td>
+        <td class='numeric'>17</td>
+      </tr>
+      <tr class='odd'>
+        <td>Спаич</td>
+        <td class='numeric'>0.544811320754717</td>
+        <td class='numeric'>0.339622641509434</td>
+        <td class='numeric'>18</td>
+        <td class='numeric'>35</td>
+        <td class='numeric'>53</td>
+      </tr>
+      <tr>
+        <td>Браток</td>
+        <td class='numeric'>0.416666666666667</td>
+        <td class='numeric'>0.416666666666667</td>
+        <td class='numeric'>5</td>
+        <td class='numeric'>7</td>
+        <td class='numeric'>12</td>
+      </tr>
+      <tr class='odd'>
+        <td>Тёма</td>
+        <td class='numeric'>0.409090909090909</td>
+        <td class='numeric'>0.318181818181818</td>
+        <td class='numeric'>7</td>
+        <td class='numeric'>15</td>
+        <td class='numeric'>22</td>
+      </tr>
+      <tr>
+        <td>Казаков</td>
+        <td class='numeric'>0.333333333333333</td>
+        <td class='numeric'>0.333333333333333</td>
+        <td class='numeric'>3</td>
+        <td class='numeric'>6</td>
+        <td class='numeric'>9</td>
+      </tr>
+      <tr class='odd'>
+        <td>Алёхин</td>
+        <td class='numeric'>0.125</td>
+        <td class='numeric'>0.0</td>
+        <td class='numeric'>0</td>
+        <td class='numeric'>8</td>
+        <td class='numeric'>8</td>
+      </tr>
+      <tr>
+        <td>Баранов</td>
+        <td class='numeric'>0.125</td>
+        <td class='numeric'>0.0</td>
+        <td class='numeric'>0</td>
+        <td class='numeric'>8</td>
+        <td class='numeric'>8</td>
+      </tr>
+      <tr class='odd'>
+        <td>Королёв</td>
+        <td class='numeric'>0.125</td>
+        <td class='numeric'>0.0</td>
+        <td class='numeric'>0</td>
+        <td class='numeric'>7</td>
+        <td class='numeric'>7</td>
+      </tr>
+	</tbody>
+</table>

@@ -1,0 +1,136 @@
+<table class='sortable'>
+    <thead>
+	  <tr>
+	    <th>Ф.И.О</th>
+		<th>Рейтинг</th>
+		<th>% побед</th>
+		<th>Побед</th>
+		<th>Поражений</th>
+		<th>Игр</th>
+	  </tr>
+	</thead>
+	<tfoot>
+	  <tr>
+	    <td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	  </tr>
+	</tfoot>
+	<tbody>
+      <tr>
+        <td>Амбал</td>
+        <td class='numeric'>84</td>
+        <td class='numeric'>74</td>
+        <td class='numeric'>52</td>
+        <td class='numeric'>18</td>
+        <td class='numeric'>70</td>
+      </tr>
+      <tr class='odd'>
+        <td>Прас</td>
+        <td class='numeric'>83</td>
+        <td class='numeric'>66</td>
+        <td class='numeric'>58</td>
+        <td class='numeric'>30</td>
+        <td class='numeric'>88</td>
+      </tr>
+      <tr>
+        <td>Гоша</td>
+        <td class='numeric'>70</td>
+        <td class='numeric'>54</td>
+        <td class='numeric'>38</td>
+        <td class='numeric'>33</td>
+        <td class='numeric'>71</td>
+      </tr>
+      <tr class='odd'>
+        <td>Стёпа</td>
+        <td class='numeric'>68</td>
+        <td class='numeric'>71</td>
+        <td class='numeric'>25</td>
+        <td class='numeric'>10</td>
+        <td class='numeric'>35</td>
+      </tr>
+      <tr>
+        <td>Битёк</td>
+        <td class='numeric'>67</td>
+        <td class='numeric'>56</td>
+        <td class='numeric'>36</td>
+        <td class='numeric'>28</td>
+        <td class='numeric'>64</td>
+      </tr>
+      <tr class='odd'>
+        <td>Нечипур</td>
+        <td class='numeric'>56</td>
+        <td class='numeric'>83</td>
+        <td class='numeric'>5</td>
+        <td class='numeric'>1</td>
+        <td class='numeric'>6</td>
+      </tr>
+      <tr>
+        <td>Спаич</td>
+        <td class='numeric'>53</td>
+        <td class='numeric'>35</td>
+        <td class='numeric'>30</td>
+        <td class='numeric'>56</td>
+        <td class='numeric'>86</td>
+      </tr>
+      <tr class='odd'>
+        <td>Тёма</td>
+        <td class='numeric'>47</td>
+        <td class='numeric'>38</td>
+        <td class='numeric'>18</td>
+        <td class='numeric'>30</td>
+        <td class='numeric'>48</td>
+      </tr>
+      <tr>
+        <td>Казаков</td>
+        <td class='numeric'>43</td>
+        <td class='numeric'>35</td>
+        <td class='numeric'>11</td>
+        <td class='numeric'>20</td>
+        <td class='numeric'>31</td>
+      </tr>
+      <tr class='odd'>
+        <td>Браток</td>
+        <td class='numeric'>39</td>
+        <td class='numeric'>35</td>
+        <td class='numeric'>6</td>
+        <td class='numeric'>11</td>
+        <td class='numeric'>17</td>
+      </tr>
+      <tr>
+        <td>Баранов</td>
+        <td class='numeric'>35</td>
+        <td class='numeric'>27</td>
+        <td class='numeric'>6</td>
+        <td class='numeric'>16</td>
+        <td class='numeric'>22</td>
+      </tr>
+      <tr class='odd'>
+        <td>Демидов</td>
+        <td class='numeric'>20</td>
+        <td class='numeric'>25</td>
+        <td class='numeric'>1</td>
+        <td class='numeric'>3</td>
+        <td class='numeric'>4</td>
+      </tr>
+      <tr>
+        <td>Алёхин</td>
+        <td class='numeric'>18</td>
+        <td class='numeric'>15</td>
+        <td class='numeric'>4</td>
+        <td class='numeric'>23</td>
+        <td class='numeric'>27</td>
+      </tr>
+      <tr class='odd'>
+        <td>Королёв</td>
+        <td class='numeric'>4</td>
+        <td class='numeric'>0</td>
+        <td class='numeric'>0</td>
+        <td class='numeric'>11</td>
+        <td class='numeric'>11</td>
+      </tr>
+	</tbody>
+</table>
